@@ -12,6 +12,12 @@ export default {
       description: 'Titles should be catchy, descriptive, and not too long'
     },
     {
+      name: 'publication',
+      type: 'string',
+      title: 'Pub',
+      description: 'Which blog does this post belong to'
+    },
+    {
       name: 'slug',
       type: 'slug',
       title: 'Slug',
